@@ -1,0 +1,8 @@
+PidFile=/tmp/zabbix_agentd.pid
+LogType=file
+LogFile=/tmp/zabbix_agentd.log
+LogFileSize=1
+EnableRemoteCommands=1
+Server=200.46.39.100
+StartAgents=1
+Hostname={server name}	
