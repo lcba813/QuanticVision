@@ -1,0 +1,7 @@
+[wazuh_repo]
+gpgcheck=1
+gpgkey=https://packages.wazuh.com/key/GPG-KEY-WAZUH
+name=Amazon Linux - Wazuh
+enabled=1
+baseurl=https://packages.wazuh.com/yum/el/7/$basearch
+protect=1
